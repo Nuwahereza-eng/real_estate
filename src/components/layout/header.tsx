@@ -46,7 +46,7 @@ export function Header() {
     )}>
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         <Link href="#home" onClick={(e) => handleLinkClick(e, "#home")} className="text-2xl font-headline font-bold text-primary-foreground hover:text-accent transition-colors">
-          Elite Motors & Properties
+          Merivan Consults
         </Link>
 
         <div className="hidden md:flex space-x-6">

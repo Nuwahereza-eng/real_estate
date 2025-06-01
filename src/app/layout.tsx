@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Elite Motors & Properties - UG',
-  description: 'Your Gateway to Quality Cars & Properties in Uganda. Import premium vehicles from Japan, UAE, UK & US. Find your dream property in Uganda.',
+  title: 'Merivan Consults - UG',
+  description: 'Your Gateway to Quality Cars & Properties in Uganda with Merivan Consults. Import premium vehicles from Japan, UAE, UK & US. Find your dream property in Uganda.',
 };
 
 export default function RootLayout({

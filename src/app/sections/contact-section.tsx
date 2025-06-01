@@ -5,10 +5,10 @@ import { SectionTitle } from "@/components/ui/section-title";
 const contactItems = [
   { iconClass: "fas fa-phone", text: "+256 700 123 456", href: "tel:+256700123456" },
   { iconClass: "fab fa-whatsapp", text: "+256 700 123 456", href: "https://wa.me/256700123456" },
-  { iconClass: "fas fa-envelope", text: "info@elitemotorsproperties.ug", href: "mailto:info@elitemotorsproperties.ug" },
+  { iconClass: "fas fa-envelope", text: "info@merivanconsults.ug", href: "mailto:info@merivanconsults.ug" },
   { iconClass: "fas fa-map-marker-alt", text: "Kampala, Uganda" },
-  { iconClass: "fab fa-facebook", text: "Elite Motors & Properties", href: "https://facebook.com" }, // Replace with actual link
-  { iconClass: "fab fa-instagram", text: "@elitemotorsproperties", href: "https://instagram.com" }, // Replace with actual link
+  { iconClass: "fab fa-facebook", text: "Merivan Consults", href: "https://facebook.com" }, // Replace with actual link
+  { iconClass: "fab fa-instagram", text: "@merivanconsults", href: "https://instagram.com" }, // Replace with actual link
 ];
 
 export function ContactSection() {
