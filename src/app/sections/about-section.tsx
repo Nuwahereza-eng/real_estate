@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import { SectionContainer } from "@/components/ui/section-container";
 import { SectionTitle } from "@/components/ui/section-title";
@@ -16,12 +17,12 @@ export function AboutSection() {
         <div className="animate-fadeInUp md:order-first">
           <div className="relative aspect-square max-w-md mx-auto">
             <Image
-              src="https://placehold.co/600x600/34495E/FFC107.png?text=Trust+%26+Experience"
-              alt="About Us Image - Handshake or Team"
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=600&h=600&auto=format&fit=crop"
+              alt="About Us Image - Business team collaboration"
               layout="fill"
               objectFit="cover"
               className="rounded-lg shadow-xl"
-              data-ai-hint="business handshake team"
+              data-ai-hint="business team"
             />
           </div>
         </div>

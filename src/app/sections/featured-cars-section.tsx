@@ -10,7 +10,7 @@ const cars = [
     mileage: "45,000 KM",
     origin: "Japan",
     fobPrice: "$18,500",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: "https://images.unsplash.com/photo-1617531037849-d0c155150016?q=80&w=600&h=400&auto=format&fit=crop",
     imageHint: "suv toyota",
   },
   {
@@ -19,7 +19,7 @@ const cars = [
     mileage: "38,000 KM",
     origin: "Japan",
     fobPrice: "$16,200",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: "https://images.unsplash.com/photo-1618843400516-ec1dcae01726?q=80&w=600&h=400&auto=format&fit=crop",
     imageHint: "suv honda",
   },
   {
@@ -28,7 +28,7 @@ const cars = [
     mileage: "52,000 KM",
     origin: "UAE",
     fobPrice: "$28,900",
-    imageUrl: "https://placehold.co/600x400.png",
+    imageUrl: "https://images.unsplash.com/photo-1555353544-7ac5ac83590c?q=80&w=600&h=400&auto=format&fit=crop",
     imageHint: "suv bmw",
   },
 ];

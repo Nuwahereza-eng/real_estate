@@ -2,7 +2,6 @@
 import { PropertyCard } from "@/components/property-card";
 import { SectionContainer } from "@/components/ui/section-container";
 import { SectionTitle } from "@/components/ui/section-title";
-// Removed Lucide icon imports as they are no longer directly passed
 
 const properties = [
   {
@@ -14,7 +13,7 @@ const properties = [
     ],
     price: "UGX 450M",
     actionText: "View Details",
-    imageUrl: "https://placehold.co/600x400/E2E8F0/4A5568.png?text=Modern+House",
+    imageUrl: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=600&h=400&auto=format&fit=crop",
     imageHint: "modern house exterior",
   },
   {
@@ -26,7 +25,7 @@ const properties = [
     ],
     price: "UGX 1.2M/month",
     actionText: "Rent Now",
-    imageUrl: "https://placehold.co/600x400/E2E8F0/4A5568.png?text=Apartment+Building",
+    imageUrl: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?q=80&w=600&h=400&auto=format&fit=crop",
     imageHint: "apartment building",
   },
   {
@@ -38,7 +37,7 @@ const properties = [
     ],
     price: "UGX 35M",
     actionText: "Buy Now",
-    imageUrl: "https://placehold.co/600x400/E2E8F0/4A5568.png?text=Land+Plot",
+    imageUrl: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=600&h=400&auto=format&fit=crop",
     imageHint: "land plot green",
   },
 ];

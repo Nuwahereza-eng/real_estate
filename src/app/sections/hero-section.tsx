@@ -1,3 +1,4 @@
+
 "use client";
 
 import { Button } from "@/components/ui/button";
@@ -42,14 +43,14 @@ export function HeroSection() {
     <section id="home" className="relative h-screen flex items-center justify-center bg-primary pt-20">
       <div className="absolute inset-0">
         <Image
-          src="https://placehold.co/1920x1080/34495E/F4F6F6.png?text=Luxury+Cars+%26+Homes"
-          alt="Luxury cars and homes background"
+          src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?q=80&w=1920&h=1080&auto=format&fit=crop"
+          alt="Luxury cars and homes background with abstract light trails"
           layout="fill"
           objectFit="cover"
           quality={80}
           priority
           className="opacity-30"
-          data-ai-hint="abstract cityscape"
+          data-ai-hint="abstract light trails"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-primary/70 via-primary/50 to-transparent"></div>
       </div>
