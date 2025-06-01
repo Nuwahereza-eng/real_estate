@@ -10,7 +10,7 @@ const cars = [
     mileage: "45,000 KM",
     origin: "Japan",
     fobPrice: "$18,500",
-    imageUrl: "https://images.unsplash.com/photo-1617531037849-d0c155150016?q=80&w=600&h=400&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1727908147407-fa90e969c4dd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     imageHint: "suv toyota",
   },
   {
@@ -19,7 +19,7 @@ const cars = [
     mileage: "38,000 KM",
     origin: "Japan",
     fobPrice: "$16,200",
-    imageUrl: "https://images.unsplash.com/photo-1618843400516-ec1dcae01726?q=80&w=600&h=400&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     imageHint: "suv honda",
   },
   {
@@ -28,7 +28,7 @@ const cars = [
     mileage: "52,000 KM",
     origin: "UAE",
     fobPrice: "$28,900",
-    imageUrl: "https://images.unsplash.com/photo-1555353544-7ac5ac83590c?q=80&w=600&h=400&auto=format&fit=crop",
+    imageUrl: "https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJtd3xlbnwwfHwwfHx8MA%3D%3D",
     imageHint: "suv bmw",
   },
 ];
