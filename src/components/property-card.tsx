@@ -18,7 +18,7 @@ const iconComponents: { [key: string]: React.ElementType<LucideProps> } = {
 };
 
 interface PropertyDetail {
-  iconName: string; // Changed from icon: React.ElementType to iconName: string
+  iconName: string;
   text: string;
 }
 
@@ -45,10 +45,11 @@ export function PropertyCard({ name, details, price, actionText, imageUrl, image
           <Image
             src={imageUrl}
             alt={name}
-            layout="fill"
+            fill
             objectFit="cover"
             className="transition-transform duration-300 group-hover:scale-105"
             data-ai-hint={imageHint}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </CardHeader>
@@ -58,9 +59,7 @@ export function PropertyCard({ name, details, price, actionText, imageUrl, image
           {details.map((detail, index) => {
             const IconComponent = iconComponents[detail.iconName];
             if (!IconComponent) {
-              // Optionally, you could log a warning or render a default icon
-              // console.warn(`Icon not found for name: ${detail.iconName}`);
-              return null; 
+              return null;
             }
             return (
               <div key={index} className="flex items-center">

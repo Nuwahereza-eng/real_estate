@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -26,13 +27,14 @@ export function CarCard({ name, year, mileage, origin, fobPrice, imageUrl, image
     <Card className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full">
       <CardHeader className="p-0">
         <div className="aspect-video relative w-full">
-          <Image 
-            src={imageUrl} 
-            alt={name} 
-            layout="fill" 
-            objectFit="cover" 
+          <Image
+            src={imageUrl}
+            alt={name}
+            fill
+            objectFit="cover"
             className="transition-transform duration-300 group-hover:scale-105"
             data-ai-hint={imageHint}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
       </CardHeader>
@@ -55,8 +57,8 @@ export function CarCard({ name, year, mileage, origin, fobPrice, imageUrl, image
         <p className="text-lg font-semibold text-destructive mb-4">FOB: {fobPrice}</p>
       </CardContent>
       <CardFooter className="p-6 pt-0">
-        <Button 
-          onClick={() => contactAgent(name)} 
+        <Button
+          onClick={() => contactAgent(name)}
           className="w-full bg-primary hover:bg-primary/90 text-primary-foreground"
         >
           Inquire Now

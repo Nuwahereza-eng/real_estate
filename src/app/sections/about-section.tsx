@@ -19,10 +19,11 @@ export function AboutSection() {
             <Image
               src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=600&h=600&auto=format&fit=crop"
               alt="About Us Image - Business team collaboration"
-              layout="fill"
+              fill
               objectFit="cover"
               className="rounded-lg shadow-xl"
               data-ai-hint="business team"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>
