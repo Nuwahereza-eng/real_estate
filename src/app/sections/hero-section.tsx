@@ -77,7 +77,12 @@ export function HeroSection() {
               <CarImportInquiryForm />
             </DialogContent>
           </Dialog>
-          <Button variant="outline" size="lg" onClick={scrollToProperties} className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-bold text-lg px-8 py-6 rounded-full shadow-lg transform hover:scale-105 transition-transform">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            onClick={scrollToProperties} 
+            className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary font-bold text-lg px-8 py-6 rounded-full shadow-lg transform hover:scale-105 transition-transform"
+          >
             Browse Properties
           </Button>
         </div>
