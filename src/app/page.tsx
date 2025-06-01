@@ -32,7 +32,7 @@ export default function HomePage() {
         <ContactSection />
       </main>
       <Footer />
-      <WhatsAppButton phoneNumber="256700123456" />
+      <WhatsAppButton phoneNumber="256779081600" />
       <ScrollToTopButton />
     </div>
   );

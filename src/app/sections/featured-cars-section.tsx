@@ -1,3 +1,4 @@
+
 import { CarCard } from "@/components/car-card";
 import { SectionContainer } from "@/components/ui/section-container";
 import { SectionTitle } from "@/components/ui/section-title";
@@ -9,7 +10,7 @@ const cars = [
     mileage: "45,000 KM",
     origin: "Japan",
     fobPrice: "$18,500",
-    imageUrl: "https://placehold.co/600x400/E2E8F0/4A5568.png?text=Toyota+Harrier",
+    imageUrl: "https://placehold.co/600x400.png",
     imageHint: "suv toyota",
   },
   {
@@ -18,7 +19,7 @@ const cars = [
     mileage: "38,000 KM",
     origin: "Japan",
     fobPrice: "$16,200",
-    imageUrl: "https://placehold.co/600x400/E2E8F0/4A5568.png?text=Honda+Vezel",
+    imageUrl: "https://placehold.co/600x400.png",
     imageHint: "suv honda",
   },
   {
@@ -27,7 +28,7 @@ const cars = [
     mileage: "52,000 KM",
     origin: "UAE",
     fobPrice: "$28,900",
-    imageUrl: "https://placehold.co/600x400/E2E8F0/4A5568.png?text=BMW+X5",
+    imageUrl: "https://placehold.co/600x400.png",
     imageHint: "suv bmw",
   },
 ];
